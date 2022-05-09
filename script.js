@@ -1,4 +1,4 @@
-const button = document.getElementById('tUbahWarna');
-button.addEventListener('click', function () {
-    document.body.classList.toggle('salmon');
-});
+const ubahWarna = document.getElementById('tUbahWarna');
+ubahWarna.onclick = function () {
+    document.body.clastList.toggle = 'light-green';
+}
